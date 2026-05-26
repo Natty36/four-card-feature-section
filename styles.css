@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Red: hsl(0, 78%, 62%);
+  --Cyan: hsl(180, 62%, 55%);
+  --Orange: hsl(34, 97%, 64%);
+  --Blue: hsl(212, 86%, 64%);
+  --Grey-500: hsl(234, 12%, 34%);
+  --Grey-400: hsl(212, 6%, 44%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 98%);
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+.container {
+  width: 90%;
+  height: 90vh;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light-text {
+  font-size: 28px;
+  font-weight: 200;
+  color: var(--Grey-400);
+}
+
+.bold-text {
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.paragraph {
+  text-align: center;
+  margin: 1rem 2rem 2rem 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.card {
+  background-color: var(--White);
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 1rem;
+  box-shadow: 1px 8px 10px gray;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 0.25rem;
+}
+
+.card-paragraph {
+  font-size: 16px;
+  color: var(--Grey-400);
+}
+
+.card img {
+  padding: 2rem 0 1rem 0;
+  position: relative;
+  left: 14rem;
+}
