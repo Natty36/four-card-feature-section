@@ -15,7 +15,7 @@
 }
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,6 @@ body {
 
 .container {
   width: 90%;
-  height: 90vh;
   margin: 1rem 0;
   display: flex;
   flex-direction: column;
@@ -46,6 +45,8 @@ body {
 
 .paragraph {
   text-align: center;
+  font-size: 16px;
+  color: var(--Grey-500);
   margin: 1rem 2rem 2rem 2rem;
 }
 
@@ -61,7 +62,7 @@ body {
   padding: 2rem;
   margin: 1rem;
   border-radius: 1rem;
-  box-shadow: 1px 8px 10px gray;
+  box-shadow: 0px 15px 10px -2px rgba(210, 220, 235, 0.4);
 }
 
 .title {
@@ -79,4 +80,17 @@ body {
   padding: 2rem 0 1rem 0;
   position: relative;
   left: 14rem;
+}
+
+.c1 {
+  border-top: 5px solid var(--Cyan);
+}
+.c2 {
+  border-top: 5px solid var(--Red);
+}
+.c3 {
+  border-top: 5px solid var(--Orange);
+}
+.c4 {
+  border-top: 5px solid var(--Blue);
 }
