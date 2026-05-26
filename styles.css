@@ -102,6 +102,7 @@ body {
     margin: 0 auto;
     align-items: center;
   }
+  
   .c1 {
     grid-column: 1;
     grid-row: 1 / span 2;
