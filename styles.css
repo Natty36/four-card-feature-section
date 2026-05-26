@@ -94,3 +94,21 @@ body {
 .c4 {
   border-top: 5px solid var(--Blue);
 }
+
+@media (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .c1 {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .c3 {
+    grid-row: 1 / span 2;
+    grid-column: 3;
+  }
+}
